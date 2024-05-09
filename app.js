@@ -34,46 +34,4 @@ function reset() {
 }
 function stop(){
     clearInterval(countSeconds);
-}
-// let timer;
-// let isRunning = false;
-// let seconds = 0;
-
-// const display = document.querySelector('.display');
-// const startBtn = document.querySelector('.start');
-// const stopBtn = document.querySelector('.stop');
-// const resetBtn = document.querySelector('.reset');
-
-// function displayTime() {
-//   const hours = Math.floor(seconds / 3600);
-//   const minutes = Math.floor((seconds % 3600) / 60);
-//   const secs = seconds % 60;
-//   const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-//   display.textContent = formattedTime;
-// }
-
-// function startTimer() {
-//   if (!isRunning) {
-//     isRunning = true;
-//     timer = setInterval(() => {
-//       seconds++;
-//       displayTime();
-//     }, 1000);
-//   }
-// }
-
-// function stopTimer() {
-//   clearInterval(timer);
-//   isRunning = false;
-// }
-
-// function resetTimer() {
-//   clearInterval(timer);
-//   isRunning = false;
-//   seconds = 0;
-//   displayTime();
-// }
-
-// startBtn.addEventListener('click', startTimer);
-// stopBtn.addEventListener('click', stopTimer);
-// resetBtn.addEventListener('click', resetTimer);
+}git status
